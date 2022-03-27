@@ -8,6 +8,8 @@ dotenv.config();
 connectDB();
 const app = express();
 
+app.use(express.json()); // To access json data
+
 app.get("/", () => {
   console.log("App is running");
 });
