@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: linear-gradient(
+    to right bottom,
+    #3ff3ff,
+    #00f7e1,
+    #00f8b0,
+    #68f471,
+    #a8eb12
+  );
+}
