@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const chatModel = mongoose.Schema(
   {
     chatName: { type: String, trim: true },
-    isGroupChat: {},
+    isGroupChat: { type: Boolean, default: false },
     users: [
       {
         type: mongoose.Schema.Types.ObjectId,
@@ -21,7 +21,7 @@ const chatModel = mongoose.Schema(
     },
   },
   {
-    timestaps: true,
+    timestamps: true,
   }
 );
 
